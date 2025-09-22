@@ -1,0 +1,581 @@
+                                      @Sorting
+
+
+
+
+
+
+
+
+
+
+
+
+#Sudo Code Bubble Sort
+
+function bubbleSort(arr, n):
+    for i = 0 to n-1:
+        swapped = false
+        for j = 0 to n-i-2:
+            if arr[j] > arr[j+1]:
+                swap(arr[j], arr[j+1])
+                swapped = true
+        if swapped == false:
+            break
+
+
+
+
+
+
+
+
+
+#Code for Bubble Sort
+
+#include <iostream>
+using namespace std;
+
+void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        bool swapped = false;
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap arr[j] and arr[j+1]
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                swapped = true;
+            }
+        }
+        // If no two elements were swapped in inner loop, array is sorted
+        if (!swapped) break;
+    }
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, n);
+
+    bubbleSort(arr, n);
+
+    cout << "Sorted array: ";
+    printArray(arr, n);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Sudo Code Selection Sort
+
+
+function selectionSort(arr, n):
+    for i = 0 to n-2:
+        minIndex = i
+        for j = i+1 to n-1:
+            if arr[j] < arr[minIndex]:
+                minIndex = j
+        swap(arr[i], arr[minIndex])
+
+
+
+
+
+
+
+
+
+
+
+#Code for Selection sort
+
+
+#include <iostream>
+using namespace std;
+
+void selectionSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        int minIndex = i;
+        // Find the index of minimum element in unsorted part
+        for (int j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        // Swap the found minimum with the first element
+        int temp = arr[i];
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
+    }
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, n);
+
+    selectionSort(arr, n);
+
+    cout << "Sorted array: ";
+    printArray(arr, n);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#Sudo code Insertion sort
+
+
+function insertionSort(arr, n):
+    for i = 1 to n-1:
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and arr[j] > key:
+            arr[j+1] = arr[j]
+            j = j - 1
+        arr[j+1] = key
+
+
+
+
+
+
+
+
+#Code for Insertion sort
+
+
+
+#include <iostream>
+using namespace std;
+
+void insertionSort(int arr[], int n) {
+    for (int i = 1; i < n; i++) {
+        int key = arr[i];      // current element to insert
+        int j = i - 1;
+
+        // Move elements greater than key to one position ahead
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+
+        arr[j + 1] = key; // place key in correct position
+    }
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {12, 11, 13, 5, 6};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, n);
+
+    insertionSort(arr, n);
+
+    cout << "Sorted array: ";
+    printArray(arr, n);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Sudo code for Quick sort (Last as a Pivot)
+
+function quickSort(arr, low, high):
+    if low < high:
+        pivotIndex = partition(arr, low, high)
+        quickSort(arr, low, pivotIndex - 1)
+        quickSort(arr, pivotIndex + 1, high)
+
+function partition(arr, low, high):
+    pivot = arr[high]      // choose last element as pivot
+    i = low - 1
+    for j = low to high-1:
+        if arr[j] <= pivot:
+            i = i + 1
+            swap(arr[i], arr[j])
+    swap(arr[i+1], arr[high])
+    return i + 1
+
+
+#Sudo code for Quick sort (First as a Pivot)
+
+function partition(arr, low, high):
+    pivot = arr[low]       // first element as pivot
+    i = low + 1
+    j = high
+
+    while true:
+        while i <= high and arr[i] <= pivot:
+            i = i + 1
+        while j >= low and arr[j] > pivot:
+            j = j - 1
+        if i < j:
+            swap(arr[i], arr[j])
+        else:
+            break
+
+    swap(arr[low], arr[j])   // place pivot in correct position
+    return j
+
+function quickSort(arr, low, high):
+    if low < high:
+        pi = partition(arr, low, high)
+        quickSort(arr, low, pi - 1)
+        quickSort(arr, pi + 1, high)
+
+
+
+
+
+
+
+
+#Code for Quick sort
+
+
+#include <iostream>
+using namespace std;
+
+int partition(int arr[], int low, int high) {
+    int pivot = arr[high];  // pivot = last element
+    int i = low - 1;        // index of smaller element
+
+    for (int j = low; j < high; j++) {
+        if (arr[j] <= pivot) {
+            i++;
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]); // place pivot in correct position
+    return (i + 1);
+}
+
+void quickSort(int arr[], int low, int high) {
+    if (low < high) {
+        int pi = partition(arr, low, high); // partition index
+        quickSort(arr, low, pi - 1);        // sort left subarray
+        quickSort(arr, pi + 1, high);       // sort right subarray
+    }
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {10, 80, 30, 90, 40, 50, 70};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, n);
+
+    quickSort(arr, 0, n - 1);
+
+    cout << "Sorted array: ";
+    printArray(arr, n);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#Sudo code for Merge Sort
+
+function mergeSort(arr, left, right):
+    if left < right:
+        mid = (left + right) / 2
+        mergeSort(arr, left, mid)       // sort left half
+        mergeSort(arr, mid+1, right)    // sort right half
+        merge(arr, left, mid, right)    // merge both halves
+
+function merge(arr, left, mid, right):
+    create temp arrays L[] and R[]
+    n1 = mid - left + 1
+    n2 = right - mid
+
+    copy elements into L[] and R[]
+    i = 0, j = 0, k = left
+    while i < n1 and j < n2:
+        if L[i] <= R[j]:
+            arr[k] = L[i]
+            i++
+        else:
+            arr[k] = R[j]
+            j++
+        k++
+    copy remaining elements of L[] (if any)
+    copy remaining elements of R[] (if any)
+
+
+
+
+
+
+
+
+
+#Code for Merge sort
+
+
+#include <iostream>
+using namespace std;
+
+void merge(int arr[], int left, int mid, int right) {
+    int n1 = mid - left + 1;
+    int n2 = right - mid;
+
+    // Temp arrays
+    int L[n1], R[n2];
+
+    // Copy data
+    for (int i = 0; i < n1; i++)
+        L[i] = arr[left + i];
+    for (int j = 0; j < n2; j++)
+        R[j] = arr[mid + 1 + j];
+
+    // Merge temp arrays back
+    int i = 0, j = 0, k = left;
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        } else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    // Copy remaining elements
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+void mergeSort(int arr[], int left, int right) {
+    if (left < right) {
+        int mid = (left + right) / 2;
+        mergeSort(arr, left, mid);      // Sort first half
+        mergeSort(arr, mid + 1, right); // Sort second half
+        merge(arr, left, mid, right);   // Merge halves
+    }
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {38, 27, 43, 3, 9, 82, 10};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, n);
+
+    mergeSort(arr, 0, n - 1);
+
+    cout << "Sorted array: ";
+    printArray(arr, n);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#Sudo code for Radix Sort
+
+
+
+
+function radixSort(arr, n):
+    maxNum = maximum element in arr
+    exp = 1   // exponent = 1s, 10s, 100s place
+    while maxNum / exp > 0:
+        countingSort(arr, n, exp)
+        exp = exp * 10
+
+function countingSort(arr, n, exp):
+    output[n]
+    count[10] = {0}
+
+    for i = 0 to n-1:
+        index = (arr[i] / exp) % 10
+        count[index]++
+
+    for i = 1 to 9:
+        count[i] += count[i-1]
+
+    for i = n-1 downto 0:
+        index = (arr[i] / exp) % 10
+        output[count[index]-1] = arr[i]
+        count[index]--
+
+    copy output[] to arr[]
+
+
+
+
+
+
+
+
+
+#code for Radix sort
+
+
+#include <iostream>
+using namespace std;
+
+// A function to get maximum value in arr[]
+int getMax(int arr[], int n) {
+    int max = arr[0];
+    for (int i = 1; i < n; i++)
+        if (arr[i] > max)
+            max = arr[i];
+    return max;
+}
+
+// Counting Sort used by Radix Sort
+void countingSort(int arr[], int n, int exp) {
+    int output[n]; 
+    int count[10] = {0};
+
+    // Count occurrences of each digit
+    for (int i = 0; i < n; i++)
+        count[(arr[i] / exp) % 10]++;
+
+    // Cumulative count
+    for (int i = 1; i < 10; i++)
+        count[i] += count[i - 1];
+
+    // Build output array (stable sort)
+    for (int i = n - 1; i >= 0; i--) {
+        int index = (arr[i] / exp) % 10;
+        output[count[index] - 1] = arr[i];
+        count[index]--;
+    }
+
+    // Copy to original array
+    for (int i = 0; i < n; i++)
+        arr[i] = output[i];
+}
+
+// Radix Sort
+void radixSort(int arr[], int n) {
+    int max = getMax(arr, n);
+
+    // Do counting sort for every digit
+    for (int exp = 1; max / exp > 0; exp *= 10)
+        countingSort(arr, n, exp);
+}
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {170, 45, 75, 90, 802, 24, 2, 66};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Original array: ";
+    printArray(arr, n);
+
+    radixSort(arr, n);
+
+    cout << "Sorted array: ";
+    printArray(arr, n);
+
+    return 0;
+}
+
+
