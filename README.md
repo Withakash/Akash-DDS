@@ -87,7 +87,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Collision Handling  
 - Static & Dynamic Hashing  
 
-[**Unit 7 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/UNIT-7-HASHING.pdf)
+  [**Unit 7 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/UNIT-7-HASHING.pdf)
 
 ---
 
