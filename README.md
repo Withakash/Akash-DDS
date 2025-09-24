@@ -20,7 +20,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Pointers & Dynamic Memory Allocation  
 - Algorithm Analysis (Time & Space Complexity)  
 
-| [Unit 1 – Notes](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+  ##[Unit 1 – Notes](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
