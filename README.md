@@ -31,7 +31,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Queue Operations (Enqueue, Dequeue, Traverse, Search)  
 - Circular Queue, Deque, Priority Queue  
 
-[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+  [**Unit 2 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%202.pdf)
 
 ---
 
@@ -40,7 +40,9 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Doubly Linked List (Insert, Delete, Traverse, Search, Reverse)  
 - Circular Linked List  
 - Header Linked List  
-- Linked List Applications (Stacks & Queues using LL)  
+- Linked List Applications (Stacks & Queues using LL)
+
+  [**Unit 3 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%203.pdf)
 
 ---
 
@@ -54,7 +56,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
   - Merge Sort  
   - Radix Sort  
 
-  [**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+  [**Unit 4 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%204%206P.pdf)
 
 ---
 
@@ -67,7 +69,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Binary Search Trees (Creation, Insertion, Deletion, Traversal, Searching)  
 - Expression Tree (Application)  
 
-   [**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+  [**Unit 5 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%205%206P.pdf)
 ---
 
 ### 🔹 Unit 6: Red-Black & AVL Trees
@@ -75,7 +77,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Red-Black Tree Operations  
 - AVL Tree Rotations & Operations  
 
-[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+  [**Unit 6 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/Unit_6_Red%20Black%20Trees%20and%20AVL%20Trees.pdf)
 
 ---
 
@@ -85,7 +87,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Collision Handling  
 - Static & Dynamic Hashing  
 
-[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+[**Unit 7 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/UNIT-7-HASHING.pdf)
 
 ---
 
@@ -95,7 +97,6 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Graph Operations  
 - Traversals: Breadth First Search (BFS), Depth First Search (DFS)  
 
-[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
