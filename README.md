@@ -5,6 +5,10 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 
 👉 The goal: Help students **understand, practice, and revise** DSA concepts quickly.  
 
+
+ **My Personal DSA Notes** | [📄 Download](https://drive.google.com/file/d/1o89tpJbeeE6YbKrpy2mIiujZToZQOVaL/view?usp=drive_link) |
+
+
 ---
 
 ## 📚 Contents  
@@ -108,5 +112,3 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 ---
  
  
- **My Personal Notes** | [📄 Download](https://drive.google.com/file/d/1o89tpJbeeE6YbKrpy2mIiujZToZQOVaL/view?usp=drive_link) |
-
