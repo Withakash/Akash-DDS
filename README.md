@@ -106,6 +106,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 ✅ Helpful for **assignments, exams, and placements**  
 
 ---
-
-## 📂 Repository Structure
+ 
+ 
+ **My Personal Notes** | [📄 Download](https://drive.google.com/file/d/1o89tpJbeeE6YbKrpy2mIiujZToZQOVaL/view?usp=drive_link) |
 
