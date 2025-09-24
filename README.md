@@ -20,7 +20,7 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Pointers & Dynamic Memory Allocation  
 - Algorithm Analysis (Time & Space Complexity)  
 
-  ##[Unit 1 – Notes](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+  [**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
@@ -30,6 +30,8 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Recursion: Factorial, GCD, Fibonacci, Tower of Hanoi  
 - Queue Operations (Enqueue, Dequeue, Traverse, Search)  
 - Circular Queue, Deque, Priority Queue  
+
+[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
@@ -52,6 +54,8 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
   - Merge Sort  
   - Radix Sort  
 
+  [**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+
 ---
 
 ### 🔹 Unit 5: Trees
@@ -63,12 +67,15 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Binary Search Trees (Creation, Insertion, Deletion, Traversal, Searching)  
 - Expression Tree (Application)  
 
+   [**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 ---
 
 ### 🔹 Unit 6: Red-Black & AVL Trees
 - Introduction to Balanced Trees  
 - Red-Black Tree Operations  
 - AVL Tree Rotations & Operations  
+
+[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
@@ -78,6 +85,8 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Collision Handling  
 - Static & Dynamic Hashing  
 
+[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+
 ---
 
 ### 🔹 Unit 8: Graphs
@@ -85,6 +94,8 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 - Representations: Adjacency Matrix, Adjacency List  
 - Graph Operations  
 - Traversals: Breadth First Search (BFS), Depth First Search (DFS)  
+
+[**Unit 1 – Notes**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
