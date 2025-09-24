@@ -13,13 +13,14 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 
 ## 📚 Contents  
 
-### 🔹 Unit 1: Introduction   
-- [Unit 1 – Notes](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
+### 🔹 Unit 1: Introduction  
 - Data Structures Overview  
 - Primitive & Non-Primitive Data Structures  
 - Arrays, Structures, Unions  
 - Pointers & Dynamic Memory Allocation  
 - Algorithm Analysis (Time & Space Complexity)  
+
+| [Unit 1 – Notes](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20UNIT%201.pdf)
 
 ---
 
