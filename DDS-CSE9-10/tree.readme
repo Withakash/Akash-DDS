@@ -1,0 +1,240 @@
+🌳 Trees in Data Structures
+🔹 1. Terminology
+
+Tree → A non-linear, hierarchical data structure consisting of nodes connected by edges.
+
+Node → Basic unit containing data.
+
+Root → Topmost node (no parent).
+
+Parent → Node that has one or more children.
+
+Child → Node derived from a parent.
+
+Leaf (External Node) → Node with no children.
+
+Internal Node → Node with at least one child.
+
+Sibling → Nodes having the same parent.
+
+Degree of Node → Number of children of a node.
+
+Depth → Distance from root to a node.
+
+Height of Node → Number of edges on the longest path from node to a leaf.
+
+Height of Tree → Height of root node.
+
+🔹 2. Binary Trees
+
+A Binary Tree is a tree where each node has at most two children:
+
+Left child
+
+Right child
+
+✅ Properties of Binary Trees
+
+Maximum nodes at level i = 2^i
+
+Maximum nodes in a tree of height h = (2^(h+1)) – 1
+
+Minimum height for n nodes = ⌈log₂(n+1)⌉ – 1
+
+A binary tree with n nodes has exactly n+1 NULL links.
+
+🔹 3. Representation of Binary Trees
+(a) Array Representation
+
+Nodes stored in level order.
+
+For node at index i:
+
+Left child → 2i + 1
+
+Right child → 2i + 2
+
+Parent → (i - 1)/2
+
+(b) Linked Representation
+
+Each node has:
+
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
+};
+
+🔹 4. Binary Tree Traversals
+
+Traversal = visiting all nodes in some order.
+
+Inorder (Left → Root → Right)
+
+Example: Binary Search Tree → gives sorted order.
+
+inorder(node):
+    if node == NULL: return
+    inorder(node.left)
+    print(node.data)
+    inorder(node.right)
+
+
+Preorder (Root → Left → Right)
+
+Used to create copy of a tree.
+
+preorder(node):
+    if node == NULL: return
+    print(node.data)
+    preorder(node.left)
+    preorder(node.right)
+
+
+Postorder (Left → Right → Root)
+
+Used in deleting a tree.
+
+postorder(node):
+    if node == NULL: return
+    postorder(node.left)
+    postorder(node.right)
+    print(node.data)
+
+
+👉 Example Tree:
+
+      A
+     / \
+    B   C
+   / \
+  D   E
+
+
+Inorder: D B E A C
+
+Preorder: A B D E C
+
+Postorder: D E B C A
+
+🔹 5. Additional Binary Tree Operations
+
+Count nodes (recursive traversal).
+
+Find height (longest path).
+
+Find leaf nodes.
+
+Mirror tree (swap left & right recursively).
+
+Level-order traversal (BFS using queue).
+
+🔹 6. Threaded Binary Trees
+
+👉 Motivation: In a binary tree, about 50% pointers are NULL.
+
+Threaded Binary Tree replaces NULL pointers with links to inorder predecessor/successor.
+
+Helps in fast inorder traversal without recursion or stack.
+
+Types:
+
+Left-threaded
+
+Right-threaded
+
+Fully threaded
+
+🔹 7. Binary Search Tree (BST)
+
+A BST is a binary tree with rules:
+
+Left subtree values < root
+
+Right subtree values > root
+
+No duplicates
+
+(a) Insertion
+insert(root, key):
+    if root == NULL:
+        return newNode(key)
+    if key < root.data:
+        root.left = insert(root.left, key)
+    else:
+        root.right = insert(root.right, key)
+    return root
+
+(b) Searching
+search(root, key):
+    if root == NULL or root.data == key:
+        return root
+    if key < root.data:
+        return search(root.left, key)
+    else:
+        return search(root.right, key)
+
+(c) Deletion
+
+3 cases:
+
+Node is leaf → delete directly.
+
+Node has one child → replace node with child.
+
+Node has two children → replace with inorder successor (minimum in right subtree).
+
+(d) Traversal
+
+Same as binary tree (inorder, preorder, postorder).
+
+Inorder traversal of BST gives sorted sequence.
+
+🔹 8. Applications of Trees
+(a) Expression Tree
+
+Used in compilers to evaluate expressions.
+
+Example: Expression → (A + B) * (C - D)
+
+        *
+       / \
+      +   -
+     / \ / \
+    A  B C  D
+
+
+Inorder → (A + B) * (C - D)
+
+Preorder → * + A B - C D
+
+Postorder → A B + C D - *
+
+(b) Other Applications
+
+Database indexing (B-Trees, B+ Trees)
+
+File systems (directories as trees)
+
+Network routing
+
+Heaps (priority scheduling)
+
+✅ Summary
+
+Tree → hierarchical structure with root, parent, child, leaf.
+
+Binary Tree → max 2 children.
+
+Properties → height, depth, max nodes.
+
+Representation → array or linked.
+
+Traversals → Inorder, Preorder, Postorder.
+
+Threaded Trees → faster inorder without stack/recursion.
+
+BST → efficient searching, insertion, deletion.
+
+Applications → expression evaluation, databases, file systems.
