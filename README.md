@@ -115,6 +115,9 @@ This repo contains **well-structured C++ implementations, pseudocodes, and expla
 11. BST Traversals (Preorder, Inorder, Postorder)  
 12. Graph Representation (Adjacency List & Matrix) with BFS & DFS  
 
+   [**Lab Manual**](https://github.com/Withakash/Akash-DDS/blob/main/DDS-CSE9-10/DDS%20MANUAL.pdf)
+
+
 ---
 
 ## 📌 Features
