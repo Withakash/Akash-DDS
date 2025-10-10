@@ -1,0 +1,742 @@
+📘 UNIT 5 – TREES  
+--------------------------------------------
+(Questions 1–40)
+
+Q1. A tree is a _______ data structure.  
+a) Linear  
+b) Hierarchical  
+c) Network  
+d) Graph  
+
+Q2. The topmost node of a tree is called _______.  
+a) Leaf node  
+b) Root node  
+c) Parent node  
+d) Child node  
+
+Q3. Fill in the blank: The nodes with no children are called _______.  
+a) Parent nodes  
+b) Root nodes  
+c) Leaf nodes  
+d) Internal nodes  
+
+Q4. In a binary tree, the maximum number of nodes at level ‘l’ is _______.  
+a) 2^l  
+b) 2^(l−1)  
+c) l²  
+d) log₂l  
+
+Q5. A binary tree of height h has a maximum of _______ nodes.  
+a) 2^h  
+b) 2^(h+1) − 1  
+c) h²  
+d) h × 2  
+
+Q6. Fill in the blank: In a binary tree, the degree of any node is at most _______.  
+a) 3  
+b) 2  
+c) 1  
+d) n  
+
+Q7. Which of the following traversals visits nodes in the order “Left → Root → Right”?  
+a) Preorder  
+b) Inorder  
+c) Postorder  
+d) Level order  
+
+Q8. Preorder traversal order is _______.  
+a) Left → Root → Right  
+b) Right → Left → Root  
+c) Root → Left → Right  
+d) Left → Right → Root  
+
+Q9. Postorder traversal order is _______.  
+a) Root → Left → Right  
+b) Left → Root → Right  
+c) Left → Right → Root  
+d) Right → Root → Left  
+
+Q10. Fill in the blank: The number of edges in a tree with n nodes is _______.  
+a) n  
+b) n – 1  
+c) n + 1  
+d) n²  
+
+Q11. A binary tree is said to be **complete** when _______.  
+a) Every level is completely filled except possibly the last  
+b) All nodes have two children  
+c) It has no leaf nodes  
+d) None of the above  
+
+Q12. A **full binary tree** is one in which _______.  
+a) Each node has at most one child  
+b) Each node has either 0 or 2 children  
+c) All nodes are at the same level  
+d) None of these  
+
+Q13. Fill in the blank: The height of a tree with a single node is _______.  
+a) 0  
+b) 1  
+c) 2  
+d) Undefined  
+
+Q14. The inorder traversal of a binary search tree gives elements in _______ order.  
+a) Ascending  
+b) Descending  
+c) Random  
+d) Spiral  
+
+Q15. Which of the following is NOT a valid tree traversal method?  
+a) Inorder  
+b) Postorder  
+c) Crossorder  
+d) Preorder  
+
+Q16. Fill in the blank: The left child of a node at index i in array representation is stored at _______.  
+a) 2i  
+b) 2i + 1  
+c) i + 1  
+d) i − 1  
+
+Q17. In array representation, the right child of a node at index i is stored at _______.  
+a) 2i  
+b) 2i + 1  
+c) 2i + 2  
+d) i + 2  
+
+Q18. Fill in the blank: The parent of node at index i in array representation is at index _______.  
+a) (i − 1) / 2  
+b) (i + 1) / 2  
+c) i / 2  
+d) 2 / i  
+
+Q19. A tree with all leaves at the same level is called a _______ tree.  
+a) Skewed  
+b) Perfect binary  
+c) Complete  
+d) Full  
+
+Q20. What is the maximum number of nodes in a binary tree of depth 4?  
+a) 8  
+b) 15  
+c) 16  
+d) 31  
+
+Q21. Fill in the blank: The **degree** of a tree is the maximum number of _______ of any node.  
+a) Parents  
+b) Children  
+c) Leaves  
+d) Levels  
+
+Q22. A **binary search tree (BST)** stores values such that:  
+a) Left < Root < Right  
+b) Left > Root < Right  
+c) Root < Left < Right  
+d) None  
+
+Q23. The process of visiting each node exactly once in a tree is called _______.  
+a) Traversal  
+b) Searching  
+c) Insertion  
+d) Deletion  
+
+Q24. Fill in the blank: A binary tree can be efficiently represented using _______.  
+a) Stack  
+b) Array or linked list  
+c) Queue  
+d) Graph  
+
+Q25. Which traversal technique is best for expression evaluation?  
+a) Preorder  
+b) Postorder  
+c) Inorder  
+d) Level order  
+
+Q26. The total number of binary trees possible with 3 nodes is _______.  
+a) 3  
+b) 5  
+c) 7  
+d) 15  
+
+Q27. Fill in the blank: In a **skewed binary tree**, every parent has only _______.  
+a) Left child  
+b) Right child  
+c) One child  
+d) Two children  
+
+Q28. Which of the following operations cannot be performed directly on array representation of binary trees?  
+a) Traversal  
+b) Insertion  
+c) Deletion of arbitrary node  
+d) Access by index  
+
+Q29. The space complexity of a recursive traversal of a binary tree is _______.  
+a) O(1)  
+b) O(n)  
+c) O(h)  
+d) O(n²)  
+
+Q30. Fill in the blank: The time complexity for traversal of a binary tree is _______.  
+a) O(log n)  
+b) O(n)  
+c) O(n log n)  
+d) O(n²)  
+
+Q31. In which traversal method is the root node visited first?  
+a) Inorder  
+b) Preorder  
+c) Postorder  
+d) None  
+
+Q32. Which traversal of a binary tree is used to **copy** the tree?  
+a) Preorder  
+b) Inorder  
+c) Postorder  
+d) Level order  
+
+Q33. Fill in the blank: Threaded binary trees are used to make traversal _______.  
+a) Faster  
+b) Slower  
+c) Random  
+d) Level-based  
+
+Q34. Which type of binary tree allows traversal without using recursion or stack?  
+a) Full tree  
+b) Threaded tree  
+c) Skewed tree  
+d) Complete tree  
+
+Q35. The time complexity of searching in a balanced BST is _______.  
+a) O(n)  
+b) O(log n)  
+c) O(n log n)  
+d) O(1)  
+
+Q36. Fill in the blank: The maximum number of nodes at height h is _______.  
+a) 2^(h+1) − 1  
+b) h + 1  
+c) 2h  
+d) h²  
+
+Q37. Which traversal gives prefix expression for an expression tree?  
+a) Postorder  
+b) Inorder  
+c) Preorder  
+d) Level order  
+
+Q38. Which traversal gives postfix expression for an expression tree?  
+a) Inorder  
+b) Postorder  
+c) Preorder  
+d) Reverse inorder  
+
+Q39. Fill in the blank: In a binary search tree, all values in the right subtree are _______ than the root.  
+a) Greater  
+b) Smaller  
+c) Equal  
+d) Random  
+
+Q40. The height of a binary tree with 15 nodes (perfect binary tree) is _______.  
+a) 2  
+b) 3  
+c) 4  
+d) 5  
+
+--------------------------------------------
+🔹 ANSWER KEY – UNIT 5 (Q1–40)
+--------------------------------------------
+
+1. b — Tree is hierarchical.  
+2. b — Topmost = root.  
+3. c — Leaf nodes have no children.  
+4. a — Max nodes at level l = 2^l.  
+5. b — Max = 2^(h+1) − 1.  
+6. b — Max degree = 2.  
+7. b — Inorder = Left → Root → Right.  
+8. c — Preorder = Root → Left → Right.  
+9. c — Postorder = Left → Right → Root.  
+10. b — Edges = n − 1.  
+11. a — Complete = all levels filled except possibly last.  
+12. b — Full = 0 or 2 children.  
+13. a — Single node → height 0.  
+14. a — BST inorder = ascending order.  
+15. c — Crossorder doesn’t exist.  
+16. a — Left child = 2i.  
+17. c — Right child = 2i + 2.  
+18. a — Parent = (i − 1)/2.  
+19. b — Perfect = all leaves same level.  
+20. b — Depth 4 → 2^(4+1) − 1 = 31.  
+21. b — Degree = max children.  
+22. a — BST property: Left < Root < Right.  
+23. a — Traversal = visit all nodes once.  
+24. b — Array or linked representation.  
+25. b — Postorder used in expression evaluation.  
+26. b — 5 unique binary trees for 3 nodes.  
+27. c — Skewed → every node has one child.  
+28. c — Deletion arbitrary node complex in array.  
+29. c — Depends on height → O(h).  
+30. b — Traversal = O(n).  
+31. b — Preorder visits root first.  
+32. a — Preorder used to copy tree.  
+33. a — Threaded trees make traversal faster.  
+34. b — Threaded trees avoid recursion/stack.  
+35. b — Balanced BST = O(log n) search.  
+36. a — Max nodes = 2^(h+1) − 1.  
+37. c — Preorder → prefix expression.  
+38. b — Postorder → postfix expression.  
+39. a — Right subtree > root.  
+40. c — 15 nodes → height = 4.  
+
+--------------------------------------------
+📘 END OF UNIT 5 – TREES (SET 1: Q1–40)
+--------------------------------------------
+
+📘 UNIT 5 – TREES  
+--------------------------------------------
+(Questions 41–60)
+
+Q41. Which property of BST ensures that searching can be done in O(log n) time (in best case)?  
+a) Tree is complete  
+b) Tree is balanced  
+c) Tree is full  
+d) Tree is skewed  
+
+Q42. Fill in the blank: The left child of a node in a BST always has a value _______ the node’s value.  
+a) Greater than  
+b) Equal to  
+c) Less than  
+d) Random  
+
+Q43. Which of the following traversals of BST gives sorted order?  
+a) Preorder  
+b) Postorder  
+c) Inorder  
+d) Level order  
+
+Q44. If elements are inserted in increasing order into a BST, the resulting tree will be _______.  
+a) Balanced  
+b) Left-skewed  
+c) Right-skewed  
+d) Perfect  
+
+Q45. Fill in the blank: Insertion in BST takes _______ time on average.  
+a) O(1)  
+b) O(n)  
+c) O(log n)  
+d) O(n²)  
+
+Q46. What happens to the height of BST when data is inserted in sorted order?  
+a) Decreases  
+b) Increases (becomes skewed)  
+c) Remains balanced  
+d) Randomly changes  
+
+Q47. The inorder predecessor of a node in BST is the _______.  
+a) Largest value in its left subtree  
+b) Smallest value in its right subtree  
+c) Parent node  
+d) Root node  
+
+Q48. The inorder successor of a node in BST is _______.  
+a) Smallest value in right subtree  
+b) Largest in left subtree  
+c) Parent node  
+d) None  
+
+Q49. Fill in the blank: Deletion of a node with two children in BST is done by replacing it with its _______.  
+a) Root  
+b) Successor or predecessor  
+c) Child node  
+d) Random node  
+
+Q50. Which operation requires re-linking of pointers in BST?  
+a) Searching  
+b) Traversal  
+c) Deletion  
+d) Printing  
+
+Q51. What is the time complexity of searching an element in an unbalanced BST?  
+a) O(n)  
+b) O(log n)  
+c) O(n²)  
+d) O(1)  
+
+Q52. Fill in the blank: A **balanced BST** ensures that difference in height between left and right subtrees is at most _______.  
+a) 0  
+b) 1  
+c) 2  
+d) n  
+
+Q53. Which traversal is used for non-recursive tree traversal using stack?  
+a) Preorder  
+b) Inorder  
+c) Level order  
+d) Postorder  
+
+Q54. The maximum height of a BST with 7 nodes (worst case) is _______.  
+a) 2  
+b) 3  
+c) 6  
+d) 7  
+
+Q55. Fill in the blank: A **threaded binary tree** replaces NULL pointers with _______.  
+a) Child links  
+b) Parent links  
+c) Inorder predecessor/successor links  
+d) Random pointers  
+
+Q56. The purpose of threading in binary trees is to _______.  
+a) Make traversal faster  
+b) Reduce memory  
+c) Eliminate recursion and stack  
+d) Both (a) and (c)  
+
+Q57. In a right-threaded binary tree, the right null pointer points to _______.  
+a) Inorder successor  
+b) Inorder predecessor  
+c) Root  
+d) Leaf node  
+
+Q58. Fill in the blank: In a left-threaded tree, the left null pointer points to the node’s _______.  
+a) Inorder predecessor  
+b) Inorder successor  
+c) Root  
+d) Leaf  
+
+Q59. Threaded binary trees are especially useful for _______.  
+a) Postorder traversal  
+b) Inorder traversal  
+c) Level order traversal  
+d) Preorder traversal  
+
+Q60. What is the time complexity of inorder traversal in a threaded binary tree?  
+a) O(1)  
+b) O(log n)  
+c) O(n)  
+d) O(n²)  
+
+--------------------------------------------
+🔹 ANSWER KEY (Q41–60)
+--------------------------------------------
+41. b — Balanced BST ensures O(log n) operations.  
+42. c — Left < Node < Right property.  
+43. c — Inorder traversal gives ascending order.  
+44. c — Sequential insertions → right-skewed tree.  
+45. c — Average insertion = O(log n).  
+46. b — Becomes skewed; height increases.  
+47. a — Inorder predecessor = largest in left subtree.  
+48. a — Inorder successor = smallest in right subtree.  
+49. b — Replace with inorder successor/predecessor.  
+50. c — Deletion changes links.  
+51. a — Unbalanced tree → O(n).  
+52. b — Balanced if height difference ≤ 1.  
+53. b — Inorder often implemented with stack.  
+54. d — Worst = skewed → height = n = 7.  
+55. c — Threads replace nulls with inorder links.  
+56. d — Speeds traversal and avoids recursion.  
+57. a — Right-thread → inorder successor.  
+58. a — Left-thread → inorder predecessor.  
+59. b — Threaded trees optimize inorder traversal.  
+60. c — Visit each node once → O(n).  
+
+--------------------------------------------
+(Questions 61–80)
+--------------------------------------------
+
+Q61. Which traversal is best suited to generate an expression tree from postfix expression?  
+a) Preorder  
+b) Postorder  
+c) Level order  
+d) Inorder  
+
+Q62. Fill in the blank: In an **expression tree**, leaves represent _______.  
+a) Operators  
+b) Operands  
+c) Variables  
+d) None  
+
+Q63. Internal nodes of an expression tree are always _______.  
+a) Operands  
+b) Operators  
+c) Constants  
+d) Pointers  
+
+Q64. The inorder traversal of an expression tree gives _______.  
+a) Prefix expression  
+b) Postfix expression  
+c) Infix expression  
+d) Random order  
+
+Q65. Fill in the blank: Postorder traversal of an expression tree gives _______.  
+a) Infix expression  
+b) Prefix expression  
+c) Postfix expression  
+d) Level order expression  
+
+Q66. Which traversal gives prefix notation?  
+a) Postorder  
+b) Inorder  
+c) Preorder  
+d) Level order  
+
+Q67. Expression tree for (A + B) * (C − D) will have _______ as root.  
+a) +  
+b) *  
+c) −  
+d) D  
+
+Q68. The postorder traversal of expression tree of (A + B * C) is _______.  
+a) ABC*+  
+b) AB+C*  
+c) A+BC*  
+d) CBA*+  
+
+Q69. Fill in the blank: The height of an expression tree depends on the number of _______.  
+a) Operators  
+b) Operands  
+c) Variables  
+d) Parentheses  
+
+Q70. Evaluation of expression tree is done using _______ traversal.  
+a) Inorder  
+b) Preorder  
+c) Postorder  
+d) Level order  
+
+Q71. Which traversal of expression tree can be used to generate machine code?  
+a) Preorder  
+b) Inorder  
+c) Postorder  
+d) None  
+
+Q72. Fill in the blank: Expression trees help in converting infix to _______ or _______ forms.  
+a) Prefix, Postfix  
+b) Preorder, Level order  
+c) Postorder, Inorder  
+d) Left, Right  
+
+Q73. Expression tree nodes can store _______.  
+a) Numbers only  
+b) Operators and operands both  
+c) Only symbols  
+d) None  
+
+Q74. Fill in the blank: Evaluation of expression tree proceeds in _______ manner.  
+a) Bottom-up  
+b) Top-down  
+c) Random  
+d) Parallel  
+
+Q75. Which of the following is an application of binary trees?  
+a) Expression parsing  
+b) File system structure  
+c) Hierarchical data storage  
+d) All of the above  
+
+Q76. Fill in the blank: Binary search trees are used for implementing _______.  
+a) Dictionaries  
+b) Queues  
+c) Stacks  
+d) Heaps  
+
+Q77. A BST storing student roll numbers helps in _______.  
+a) Random insertion  
+b) Fast searching  
+c) Sequential traversal only  
+d) None  
+
+Q78. Fill in the blank: AVL trees are BSTs with additional balancing condition to maintain _______.  
+a) Order property  
+b) Height balance  
+c) Thread links  
+d) Symmetry  
+
+Q79. The balance factor of a node in AVL tree is calculated as _______.  
+a) LeftHeight + RightHeight  
+b) RightHeight − LeftHeight  
+c) LeftHeight − RightHeight  
+d) (Left + Right) / 2  
+
+Q80. Fill in the blank: A balance factor value of _______ indicates a balanced node.  
+a) 1  
+b) 0  
+c) −1  
+d) Both b and c  
+
+--------------------------------------------
+🔹 ANSWER KEY (Q61–80)
+--------------------------------------------
+61. b — Build tree from postfix via postorder.  
+62. b — Leaves = operands.  
+63. b — Internal = operators.  
+64. c — Inorder = infix form.  
+65. c — Postorder = postfix expression.  
+66. c — Preorder → prefix notation.  
+67. b — Root operator = *.  
+68. a — Postorder → ABC*+.  
+69. a — Depends on operators.  
+70. c — Postorder for evaluation.  
+71. c — Postorder gives execution order.  
+72. a — Converts infix ↔ prefix/postfix.  
+73. b — Both operators and operands.  
+74. a — Evaluation proceeds bottom-up.  
+75. d — All are applications.  
+76. a — BST implements dictionaries/maps.  
+77. b — BST = efficient search.  
+78. b — AVL ensures height balancing.  
+79. c — LeftHeight − RightHeight.  
+80. d — Balance = 0 or ±1 means balanced.  
+
+--------------------------------------------
+(Questions 81–100)
+--------------------------------------------
+
+Q81. Fill in the blank: A node in a binary tree can have at most _______ children.  
+a) 1  
+b) 2  
+c) 3  
+d) n  
+
+Q82. In level order traversal, nodes are visited using which data structure?  
+a) Stack  
+b) Queue  
+c) Linked list  
+d) Array  
+
+Q83. Time complexity of inserting a node in BST (average case) is _______.  
+a) O(n)  
+b) O(log n)  
+c) O(1)  
+d) O(n²)  
+
+Q84. Fill in the blank: The number of nodes in a perfect binary tree of height h is _______.  
+a) 2h  
+b) 2^(h+1) − 1  
+c) h²  
+d) h × 2  
+
+Q85. Which traversal visits the nodes in breadth-first order?  
+a) Level order  
+b) Inorder  
+c) Postorder  
+d) Preorder  
+
+Q86. Fill in the blank: Recursive traversal requires _______ data structure internally.  
+a) Stack  
+b) Queue  
+c) Array  
+d) Graph  
+
+Q87. The time complexity of searching in a BST in worst case is _______.  
+a) O(1)  
+b) O(log n)  
+c) O(n)  
+d) O(n log n)  
+
+Q88. Fill in the blank: Height-balanced trees improve the _______ of search operation.  
+a) Accuracy  
+b) Time efficiency  
+c) Space  
+d) Randomness  
+
+Q89. Which tree traversal is suitable for deleting a tree safely (freeing memory)?  
+a) Inorder  
+b) Postorder  
+c) Preorder  
+d) Level order  
+
+Q90. Fill in the blank: In a BST, the smallest element is found by going to the _______.  
+a) Rightmost node  
+b) Leftmost node  
+c) Root  
+d) Any leaf  
+
+Q91. Maximum number of nodes in a binary tree with depth ‘d’ is _______.  
+a) 2d  
+b) 2^(d+1) − 1  
+c) 2^d  
+d) d × 2  
+
+Q92. Fill in the blank: The height of an empty binary tree is defined as _______.  
+a) −1  
+b) 0  
+c) 1  
+d) Undefined  
+
+Q93. In BST, deleting a node with one child requires _______.  
+a) Replacing node with child  
+b) Deleting entire subtree  
+c) Swapping values  
+d) None  
+
+Q94. Fill in the blank: The traversal which first visits the leftmost node and ends at rightmost node is _______.  
+a) Preorder  
+b) Inorder  
+c) Postorder  
+d) Level order  
+
+Q95. The space complexity of a recursive tree traversal depends on _______.  
+a) Degree  
+b) Height  
+c) Depth  
+d) Both b and c  
+
+Q96. Fill in the blank: A binary tree with all nodes having either 0 or 2 children is called _______.  
+a) Full binary tree  
+b) Perfect binary tree  
+c) Complete binary tree  
+d) AVL tree  
+
+Q97. In a threaded binary tree, traversal does not need _______.  
+a) Stack  
+b) Queue  
+c) Root  
+d) Pointers  
+
+Q98. Fill in the blank: The number of possible binary trees with 4 nodes is _______.  
+a) 8  
+b) 14  
+c) 16  
+d) 24  
+
+Q99. The time complexity of all traversal operations in a binary tree is _______.  
+a) O(n)  
+b) O(log n)  
+c) O(n log n)  
+d) O(n²)  
+
+Q100. Fill in the blank: The primary application of expression trees is in _______.  
+a) Compilers  
+b) Networking  
+c) Memory allocation  
+d) Database indexing  
+
+--------------------------------------------
+🔹 ANSWER KEY (Q81–Q100)
+--------------------------------------------
+81. b — Binary = 2 children max.  
+82. b — Queue used in level order.  
+83. b — Average insertion/search = O(log n).  
+84. b — Perfect tree = 2^(h+1) − 1.  
+85. a — Level order = breadth-first.  
+86. a — Recursion uses call stack.  
+87. c — Worst case = skewed tree → O(n).  
+88. b — Balanced tree improves time efficiency.  
+89. b — Postorder deletes children before parent.  
+90. b — Minimum = leftmost node.  
+91. b — Max nodes = 2^(d+1) − 1.  
+92. a — Empty tree height = −1.  
+93. a — Replace with its child link.  
+94. b — Left to right order → inorder.  
+95. d — Depends on height/depth.  
+96. a — Full binary = 0 or 2 children.  
+97. a — No recursion/stack required.  
+98. b — 14 trees possible (Catalan number).  
+99. a — Traversal visits each node → O(n).  
+100. a — Expression trees used in compiler parsing.  
+
+--------------------------------------------
+📘 END OF UNIT 5 – TREES (Q1–100)
+--------------------------------------------
+
+
