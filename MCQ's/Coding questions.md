@@ -1,9 +1,10 @@
-📘 DATA & DATA STRUCTURES – 50 CODING QUESTIONS (ALL UNITS)
+**📘 DATA & DATA STRUCTURES – 50 CODING QUESTIONS (ALL UNITS)**
+
 🧩 UNIT 1: Introduction & Complexity (Q1–Q10)
 
 Q1. Write a program to calculate time complexity of a loop (O(n)).
 Concept: Time complexity basics
-
+```
 #include <iostream>
 using namespace std;
 int main() {
@@ -12,11 +13,12 @@ int main() {
         cout << i << " ";
     return 0;
 }
-
+```
 
 Q2. Write a program to demonstrate O(log n) complexity using binary search.
 Concept: Asymptotic analysis
 
+```
 #include <iostream>
 using namespace std;
 int binarySearch(int arr[], int n, int x) {
@@ -33,10 +35,10 @@ int main() {
     int arr[] = {10,20,30,40,50};
     cout << binarySearch(arr,5,40);
 }
-
+```
 
 Q3. Write a program to count the number of comparisons in linear search.
-
+```
 #include <iostream>
 using namespace std;
 int main() {
@@ -50,10 +52,10 @@ int main() {
     }
     cout<<"Not Found";
 }
-
+```
 
 Q4. Demonstrate O(n²) complexity using nested loops.
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -62,18 +64,18 @@ int main(){
         for(int j=0;j<n;j++)
             cout<<"*";
 }
-
+```
 
 Q5. Write a program to compute factorial using recursion and find its time complexity.
-
+```
 #include <iostream>
 using namespace std;
 int fact(int n){ return (n<=1)?1:n*fact(n-1); }
 int main(){ cout<<fact(5); }
-
+```
 
 Q6. Write a program to swap two numbers using functions (pass by reference).
-
+```
 #include <iostream>
 using namespace std;
 void swapNum(int &a, int &b){ int t=a; a=b; b=t; }
@@ -82,10 +84,10 @@ int main(){
     swapNum(x,y);
     cout<<x<<" "<<y;
 }
-
+```
 
 Q7. Write a program to display Big O analysis message for any algorithm (user choice).
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -97,18 +99,18 @@ int main(){
         case 3: cout<<"O(n^2)"; break;
     }
 }
-
+```
 
 Q8. Demonstrate a recursive function with O(2ⁿ) complexity (Fibonacci).
-
+```
 #include <iostream>
 using namespace std;
 int fib(int n){ return (n<=1)?n:fib(n-1)+fib(n-2); }
 int main(){ cout<<fib(6); }
-
+```
 
 Q9. Write a program to reverse a number (basic algorithm question).
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -116,19 +118,19 @@ int main(){
     while(n){ rev=rev*10+n%10; n/=10; }
     cout<<rev;
 }
-
+```
 
 Q10. Write a program to find GCD using recursion (O(log n)).
-
+```
 #include <iostream>
 using namespace std;
 int gcd(int a,int b){ return (b==0)?a:gcd(b,a%b); }
 int main(){ cout<<gcd(60,24); }
-
+```
 🧮 UNIT 2: Arrays, Stacks & Queues (Q11–Q20)
 
 Q11. Program to insert an element in an array.
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -137,10 +139,10 @@ int main(){
     arr[pos-1]=val; n++;
     for(int i=0;i<n;i++) cout<<arr[i]<<" ";
 }
-
+```
 
 Q12. Program to delete an element from array.
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -149,10 +151,10 @@ int main(){
     n--;
     for(int i=0;i<n;i++) cout<<arr[i]<<" ";
 }
-
+```
 
 Q13. Implement stack using array.
-
+```
 #include <iostream>
 using namespace std;
 #define MAX 5
@@ -162,10 +164,10 @@ int pop(){ return (top>=0)?st[top--]:-1; }
 int main(){
     push(10);push(20);cout<<pop();
 }
-
+```
 
 Q14. Implement queue using array.
-
+```
 #include <iostream>
 using namespace std;
 #define MAX 5
@@ -176,10 +178,10 @@ int main(){
     enq(10);enq(20);deq();
     for(int i=f;i<=r;i++) cout<<q[i]<<" ";
 }
-
+```
 
 Q15. Implement circular queue.
-
+```
 #include <iostream>
 using namespace std;
 #define MAX 5
@@ -196,10 +198,10 @@ int main(){
     enq(10);enq(20);enq(30);deq();
     for(int i=f;i<=r;i++) cout<<q[i]<<" ";
 }
-
+```
 
 Q16. Program to reverse an array.
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -207,10 +209,10 @@ int main(){
     for(int i=0;i<n/2;i++) swap(arr[i],arr[n-1-i]);
     for(int i=0;i<n;i++) cout<<arr[i]<<" ";
 }
-
+```
 
 Q17. Implement stack using linked list.
-
+```
 #include <iostream>
 using namespace std;
 struct Node{ int data; Node* next; };
@@ -220,10 +222,10 @@ void push(int x){
 }
 void pop(){ if(top){ Node* t=top; top=top->next; delete t; } }
 int main(){ push(10);push(20);pop(); }
-
+```
 
 Q18. Implement queue using linked list.
-
+```
 #include <iostream>
 using namespace std;
 struct Node{ int data; Node* next; };
@@ -234,10 +236,9 @@ void enq(int x){
 }
 void deq(){ if(f){ Node* t=f; f=f->next; delete t; } }
 int main(){ enq(10);enq(20);deq(); }
-
-
+```
 Q19. Evaluate postfix expression using stack.
-
+```
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -254,10 +255,10 @@ int main(){
     }
     cout<<s.top();
 }
-
+```
 
 Q20. Implement parenthesis balancing using stack.
-
+```
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -272,11 +273,11 @@ bool balanced(string str){
     return s.empty();
 }
 int main(){ cout<<(balanced("(())")?"Balanced":"Not"); }
-
+```
 🔍 UNIT 3: Searching Algorithms (Q21–Q30)
 
 Q21. Implement linear search.
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -285,10 +286,10 @@ int main(){
         if(arr[i]==x){ cout<<"Found at "<<i; return 0; }
     cout<<"Not found";
 }
-
+```
 
 Q22. Implement binary search (iterative).
-
+```
 #include <iostream>
 using namespace std;
 int binary(int a[],int n,int k){
@@ -304,10 +305,10 @@ int main(){
     int a[]={10,20,30,40,50};
     cout<<binary(a,5,30);
 }
-
+```
 
 Q23. Implement interpolation search.
-
+```
 #include <iostream>
 using namespace std;
 int interp(int arr[],int n,int x){
@@ -323,10 +324,10 @@ int main(){
     int a[]={10,20,30,40,50};
     cout<<interp(a,5,30);
 }
-
+```
 
 Q24. Implement recursive binary search.
-
+```
 #include <iostream>
 using namespace std;
 int recBin(int a[],int l,int h,int x){
@@ -339,10 +340,10 @@ int main(){
     int a[]={2,4,6,8,10};
     cout<<recBin(a,0,4,8);
 }
-
+```
 
 Q25. Program to find number of comparisons in binary search.
-
+```
 #include <iostream>
 using namespace std;
 int main(){
@@ -356,11 +357,11 @@ int main(){
     }
     cout<<"Comparisons="<<c;
 }
-
+```
 🔄 UNIT 4: Sorting Algorithms (Q31–Q40)
 
 Q31. Bubble sort
-
+```
 #include <iostream>
 using namespace std;
 void bubble(int a[],int n){
@@ -374,10 +375,10 @@ int main(){
     bubble(a,5);
     for(int x:a) cout<<x<<" ";
 }
-
+```
 
 Q32. Selection sort
-
+```
 #include <iostream>
 using namespace std;
 void sel(int a[],int n){
@@ -393,10 +394,10 @@ int main(){
     sel(a,5);
     for(int x:a) cout<<x<<" ";
 }
-
+```
 
 Q33. Insertion sort
-
+```
 #include <iostream>
 using namespace std;
 void ins(int a[],int n){
@@ -413,10 +414,10 @@ int main(){
     ins(a,5);
     for(int x:a) cout<<x<<" ";
 }
-
+```
 
 Q34. Quick sort (pivot = first element)
-
+```
 #include <iostream>
 using namespace std;
 int part(int a[],int low,int high){
@@ -442,10 +443,10 @@ int main(){
     quick(a,0,4);
     for(int x:a) cout<<x<<" ";
 }
-
+```
 
 Q35. Merge sort
-
+```
 #include <iostream>
 using namespace std;
 void merge(int a[],int l,int m,int r){
@@ -472,10 +473,10 @@ int main(){
     mergeSort(a,0,4);
     for(int x:a) cout<<x<<" ";
 }
-
+```
 
 Q36. Radix sort
-
+```
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -501,6 +502,6 @@ int main(){
     radixSort(a,8);
     for(int x:a) cout<<x<<" ";
 }
-
+```
 
 Q37–Q50 → UNIT 5 (Trees)
