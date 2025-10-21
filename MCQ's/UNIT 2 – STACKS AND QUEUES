@@ -299,7 +299,7 @@ d) pop from non-empty stack
 24. a — enqueue() adds, dequeue() removes in circular queue.  
 25. a — Operands pushed, operators popped for evaluation.  
 26. a — Infix (A + B)*(C - D) → Postfix A B + C D - *.  
-27. b — Expression evaluates to 34.  
+27. a — Expression evaluates to 37.  
 28. c — Recursion uses stack, not queue.  
 29. a — Both enqueue and dequeue take O(1).  
 30. b — Top element = 20.  
