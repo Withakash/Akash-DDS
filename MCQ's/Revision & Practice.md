@@ -1,6 +1,11 @@
 # 🧮 C++ Practical Programs
 
 ---
+
+# 🎯 Section – A : Coding / Practical Questions 
+
+
+
 **Q1. Write a program to find the Factorial of a number using recursion.**
 
 **Sample Input:**
@@ -627,8 +632,6 @@ int main(){
 
 ---
 
-### ✅ End of Section B
-> Covers Units 1–4 : Algorithms, Arrays, Stacks & Queues, Linked Lists, Searching & Sorting.  
-> Designed in Parul University Mid-Sem style for exam practice.
+
 
 
