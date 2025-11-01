@@ -477,3 +477,158 @@ int main(){
 
 
 
+# 🎯 Section B — Objective / Fill-in-the-Blanks / Output-Based Questions
+
+---
+
+### 🧩 Multiple Choice Questions (MCQs)
+
+1. A data structure is a way of organizing **_____** in a computer so it can be used efficiently.  
+   - A. Code  B. Memory  C. **Data**  D. Function  
+
+2. The complexity of **linear search** is _____  
+   - A. O(1)  B. O(log n)  C. **O(n)**  D. O(n²)
+
+3. In recursion, a function **_____** itself until a base condition is met.  
+   - A. Repeats  B. **Calls**  C. Copies  D. Stops  
+
+4. Stack follows which principle?  
+   - A. FIFO  B. **LIFO**  C. FILO  D. None  
+
+5. In a queue, insertion is done at _____ and deletion at _____.  
+   - A. Front, Rear  B. **Rear, Front**  C. Both Rear  D. Both Front  
+
+6. Which of the following is **not** a linear data structure?  
+   - A. Array  B. Stack  C. Queue  D. **Tree**
+
+7. Which search technique requires **sorted data**?  
+   - A. Linear  B. **Binary Search**  C. Hashing  D. All  
+
+8. The worst-case complexity of **bubble sort** is _____  
+   - A. **O(n²)**  B. O(n log n)  C. O(n)  D. O(1)
+
+9. In a stack, overflow occurs when _____  
+   - **Top == size – 1**
+
+10. In queue operations, removing an element is called **Dequeue**.
+
+11. A linked list node contains _____ and _____.  
+    - **Data**, **Pointer to Next Node**
+
+12. The search operation in a linked list takes _____ time in the worst case.  
+    - **O(n)**  
+
+13. Which sorting algorithm is **stable**?  
+    - A. Selection  B. **Insertion**  C. Quick  D. Heap  
+
+14. A stack is useful for **Undo** operations in text editors.  
+
+15. Traversing a binary search tree in **In-order** results in **sorted data**.
+
+16. The postfix form of (A + B) * (C – D) is **AB+CD-\***  
+
+17. Which structure uses both FIFO and LIFO principles?  
+    - **Deque**
+
+18. The auxiliary space of merge sort = **O(n)**  
+
+19. In an array, index starts from **0**.  
+
+20. Recursion ends when the **base condition** is true.  
+
+---
+
+### ✍️ Fill in the Blanks
+
+21. The queue used in **BFS** is a **Queue (FIFO)**.  
+22. In selection sort, the smallest element is placed at the **first position**.  
+23. Merge sort uses the **Divide and Conquer** technique.  
+24. Stack is used for **expression evaluation and syntax parsing**.  
+25. In a binary tree, the maximum number of nodes on level L = **2ᴸ**.  
+26. The best-case complexity of insertion sort = **O(n)**.  
+27. Stack used in function calls is called **Call Stack**.  
+28. A circular queue helps reduce **memory wastage**.  
+29. For a queue implemented using an array, if `front == rear == –1`, queue is **Empty**.  
+30. Stack is used to convert **infix to postfix** expressions.  
+
+---
+
+### 💻 Output-Based Questions
+
+31. Predict the output:  
+    ```cpp
+    int a=5,b=2;
+    while(a-- > b++){}
+    cout << a << " " << b;
+    ```
+    ✅ **Output:** `1 3`
+
+32. If n = 4, how many times does the inner loop run in bubble sort?  **6**
+
+33. In recursion, each call is pushed onto the **Stack**.  
+
+34. Output of the following:  
+    ```cpp
+    int x=5;
+    cout << x++ + ++x;
+    ```
+    ✅ **Output:** `12`
+
+35. For an array base address 100 (int = 4 bytes), address of arr[3] = **112**.  
+
+36. Output:  
+    ```cpp
+    int a=3,b=4;
+    cout << (a & b) << " " << (a | b);
+    ```
+    ✅ **Output:** `0 7`
+
+37. In a queue where rear = 4 and front = 2, number of elements = **3**.  
+
+38. Output:  
+    ```cpp
+    cout << (10/4*2);
+    ```
+    ✅ **Output:** `4`
+
+39. Output:  
+    ```cpp
+    for(int i=1;i<=5;i++)
+      for(int j=1;j<=i;j++);
+    cout << i;
+    ```
+    ✅ **Output:** `6`
+
+40. Output of `cout << 5/2.0;` = **2.5**
+
+---
+
+### 🧾 Answer Highlights (Quick Key)
+
+| # | Answer | Concept |
+|:--:|:--|:--|
+| 1 | Data | Defines what is organized. |
+| 2 | O(n) | Linear search scans all elements. |
+| 4 | LIFO | Stack behavior. |
+| 5 | Rear/Front | Queue in/out ends. |
+| 6 | Tree | Non-linear DS. |
+| 8 | O(n²) | Nested loops in bubble sort. |
+| 13 | Insertion Sort | Stable algorithm. |
+| 15 | In-order → sorted | BST property. |
+| 16 | AB+CD-\* | Postfix conversion. |
+| 21 | Queue | Used in BFS. |
+| 23 | Divide & Conquer | Merge sort method. |
+| 28 | Reduces wastage | Circular queue advantage. |
+| 31 | 1 3 | Loop trace question. |
+| 34 | 12 | Increment operators. |
+| 36 | 0 7 | Bitwise AND/OR logic. |
+| 39 | 6 | Loop scope trick. |
+| 40 | 2.5 | Floating division. |
+
+---
+
+### ✅ End of Section B
+> Covers Units 1–4 : Algorithms, Arrays, Stacks & Queues, Linked Lists, Searching & Sorting.  
+> Designed in Parul University Mid-Sem style for exam practice.
+
+
