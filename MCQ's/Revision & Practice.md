@@ -440,16 +440,17 @@ int main(){
     for(int i = 0; i < n; i++) cout << arr[i] << " ";
     return 0;
 }
+```
+**Q12. Write a program for Selection Sort.**
 
-Q12. Write a program for Selection Sort.
-
-Sample Input:
+**Sample Input:**
 5
 64 25 12 22 11
 
-Expected Output:
+**Expected Output:**
 11 12 22 25 64
 
+```cpp
 #include <iostream>
 using namespace std;
 
