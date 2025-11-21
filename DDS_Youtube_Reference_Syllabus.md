@@ -49,14 +49,14 @@
 - **Red‑Black Tree** — https://www.youtube.com/watch?v=UaLIHuR1t8Q  
 - **AVL Trees** — https://www.youtube.com/watch?v=jDM6_TnYIqE
 
-## Unit 7: Hashing
-- **Hash Table Organization** — https://www.youtube.com/watch?v=2Dn6VdXWkGs  
+## Unit 7: Hashing  - PlayList 
+- **Hash Table Organization** — https://www.youtube.com/watch?v=W5q0xgxmRd8&list=PLxM5rzx4f4fwOPORqEZZhaaY5OG0WMZfF&pp=0gcJCbAEOCosWNin
 - **Hashing Functions** — https://www.youtube.com/watch?v=5K7J6iWthGg  
 - **Collision Handling** — https://www.youtube.com/watch?v=tzFRjO0aTn0  
 - **Static & Dynamic Hashing** — https://www.youtube.com/watch?v=LGZlw8gj7yU
 
 ## Unit 8: Graphs
-- **Graph Terminologies** — https://www.youtube.com/watch?v=gXgEDyodOJU  
+- **Graph Terminologies** — https://youtu.be/gXgEDyodOJU?si=sC5ki1VTxVLr6JTZ
 - **Adjacency Matrix & List** — https://www.youtube.com/watch?v=9C2cpQZVRBA  
 - **Graph Operations** — https://www.youtube.com/watch?v=nlQJjXj0p1k  
 - **BFS / DFS** — https://www.youtube.com/watch?v=pcKY4hjDrxk
