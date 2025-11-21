@@ -12,7 +12,10 @@
 ## Unit 2: Stacks, Recursion & Queues
 - **Stack Operations** — https://www.youtube.com/watch?v=k8gKrc_aaQc  
 - **Infix to Postfix / Postfix Evaluation** — https://www.youtube.com/watch?v=VMS0qUJF05k  
-- **Recursion (Factorial, GCD, Fibonacci, TOH)** — https://www.youtube.com/watch?v=NG1ZC3SDjZU  
+- **Recursion** — https://youtu.be/KQZIBckWK-s?si=zOJGYnE5HxzZrdMO
+- **Factorial** — https://youtu.be/-m71_eHBaVw?si=JgF93NCHHCjKM0XE
+- **GCD** — https://youtu.be/_t8y7vylqRc?si=VjT2PC-LevygYEb6
+- **Fibonacci** — https://youtu.be/4jZzXFsgRm0?si=qM2G3HvQ_Lj2IB8N
 - **Queue Operations** — https://www.youtube.com/watch?v=PpfHfB8CSWc  
 - **Circular Queue / Deque / Priority Queue** — https://www.youtube.com/watch?v=HocjgEQ-bAQ
 
